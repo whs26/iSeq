@@ -29,7 +29,7 @@ Requirement:
 - Python package: Biopython (To install, open the terminal and type 'pip3 install biopython')
 
 To-Use:
-1. Download the ‘iSeq’ file and place it at the Desktop (not anywhere else). Unzip all the files within the folder.
+1. Download the ‘iSeq’ file and place it at the Desktop (not anywhere else). Unzip samtools, IGVtools and bowtie2 within the folder.
 2. Open the terminal (you can use search to locate it, just search ‘terminal’)
 3. Inside the terminal, type ‘nano ~/.bash_profile’ (this opens up a word editor called nano and edit a hidden file called .bash_profile)
 4. Type ‘export PATH:$PATH:./Desktop/iSeq’ (the purpose is to add ‘/Desktop/iSeq’ into your default PATH for easy access)
