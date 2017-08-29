@@ -2,7 +2,7 @@
 
 # If running for the first time, first grant permission to run the script by running:
 # chmod 755 run.sh
-# first gunzip all files using the command: find /Users/tiong/Desktop/NGS/ngs170410/ -name \*.gz -exec gunzip {} \; 
+# first gunzip all files using the command: find (PATH) -name \*.gz -exec gunzip {} \; 
 
 # for customised python script, add ‘#!/usr/bin/env python’ on the first line, remove .py filename 
 # and activate using chmod 755
