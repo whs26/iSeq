@@ -33,6 +33,7 @@ To-Use:
 2. Open the terminal (you can use search to locate it, just search ‘terminal’)
 3. Inside the terminal, type ‘nano ~/.bash_profile’ (this opens up a word editor called nano and edit a hidden file called .bash_profile)
 4. At the bottom of the script (if there is already something there), type: PATH="./Desktop/iSeq-master" and on the next line, type: export PATH  (the purpose is to add ‘./Desktop/iSeq-master’ into your default PATH for easy access)
+  Alternatively, try: export PATH=$PATH:./Desktop/iSeq-master
 5. Press ‘Ctrl + x’ to exit. When asked whether to save it or not, press ‘y’ and then ‘Enter’.
 
 6. Now you are ready to use the program. In the terminal, type ‘run.sh’ follow by a space, then drag and drop the three items in order (1) first_paired_end_file.fastq
