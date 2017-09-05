@@ -40,13 +40,23 @@ with open(input_csv) as f:
 # no read depth
 
             if position != count:
-                out = {'Position': str(poslist[-2]) + ' to ' +str(position),
-                       'Mutation': 'Read Depth = 0',
-                       'Ref Base Rate':  '0',
-                       'Read Base Rate': '0',
-                       'Read Depth': '0'}
-                output.append(out)
-                count = position
+                try:
+                    out = {'Position': str(poslist[-2]) + ' to ' +str(position),
+                           'Mutation': 'Read Depth = 0',
+                           'Ref Base Rate':  '0',
+                           'Read Base Rate': '0',
+                           'Read Depth': '0'}
+                    output.append(out)
+                    count = position
+                except IndexError:
+                    out = {'Position': '1 to ' +str(position),
+                           'Mutation': 'Read Depth = 0',
+                           'Ref Base Rate':  '0',
+                           'Read Base Rate': '0',
+                           'Read Depth': '0'}
+                    output.append(out)
+                    count = position
+                    
                 
             elif sumall == 0:
                 out = {'Position': position,
