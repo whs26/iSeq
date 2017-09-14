@@ -4,7 +4,7 @@ This package can:
 (1) automatically run the alignment using Bowtie2 (which can be visualised using IGV viewer); 
 (2) show you a report of the alignment in a txt file; 
 (3) call out all mutations in a csv file;
- (4) generate a consensus sequence file in .txt format The package is intended to be clear and easy to use.
+(4) generate a consensus sequence file in .txt format The package is intended to be clear and easy to use.
 
 Key advantages: 
 (1) Takes only a few seconds to drag-and-drop your alignment files and the reference file into the terminal. Minimal input required; 
