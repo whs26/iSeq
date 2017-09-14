@@ -21,7 +21,6 @@ Limitations:
 (3) So far only tested on Mac
 
 Requirement:
-
 1. Python 3 (Google it and install)
 2. Java 7 or above (Google it and install)
 3. Java Development Kit (JDK) (Google it and install)
@@ -29,7 +28,6 @@ Requirement:
 5. Python package: Biopython (To install, open the terminal and type 'pip3 install biopython' after you install Python 3)
 
 To-Use:
-
 1. Download the ‘iSeq-master’ file and place it at the Desktop (not anywhere else). Unzip samtools, IGVtools and bowtie2 within the folder.
 
 2. Open the terminal (you can use the Search function in Mac to locate it, just search for ‘terminal’)
@@ -57,7 +55,8 @@ The program will run automatically. When it is done, a message ‘Done’ will a
 
 To run multiple alignment in parallel, press ‘Ctrl + T’ in the terminal to open a new tab and repeat step 6. You can open as many terminals as you like and leaves them running overnight.
 
-Disclaimer: Some packages from other sources are included sorely for convenience to the users. The credits for these packages belong to the original content creators. The packages are: 
+Disclaimer: 
+Some packages from other sources are included sorely for convenience to the users. The credits for these packages belong to the original content creators. The packages are: 
 (1) Bowtie2-2.3.2-legacy URL: http://bowtie-bio.sourceforge.net/bowtie2/index.shtml 
 (2) IGVtools URL: https://software.broadinstitute.org/software/igv/igvtools 
 (3) Samtools-1.3.1 URL: http://samtools.sourceforge.net
