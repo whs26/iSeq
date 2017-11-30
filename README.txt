@@ -64,5 +64,4 @@ Disclaimer: Some packages from other sources are included sorely for convenience
 (2) IGVtools URL: https://software.broadinstitute.org/software/igv/igvtools 
 (3) Samtools-1.3.1 URL: http://samtools.sourceforge.net
 
-iSeq is intended to make it easily to align deep sequencing data. The users are solely responsible for output and the use of iSeq.
-
+Disclaimer: The author will not be held accountable for any problems or issues caused as the result of use of this program
