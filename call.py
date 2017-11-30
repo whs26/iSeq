@@ -122,7 +122,10 @@ for i in range(1,len(poslist)):
                               'Note': 'Read depth increases by {} percent'.format(round(percent,0))})
 
 df2 = pd.DataFrame.from_dict(depth_checker)
-df2 = df2[['Position', 'Note']].set_index('Position')
+try: 
+    df2 = df2[['Position', 'Note']].set_index('Position')
+except KeyError:
+    pass
 df2.to_csv(depth_checker_filename)        
         
     
