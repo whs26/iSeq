@@ -117,9 +117,12 @@ for i in range(1,len(poslist)):
         depth_checker.append({'Position': poslist[i][0],
                               'Note': 'Read depth drops by {} percent'.format(round(percent,0))})
     elif (poslist[i-1][1])*2 < poslist[i][1]:
-        percent = ((poslist[i][1]/poslist[i-1][1])-1)*100
-        depth_checker.append({'Position': poslist[i][0],
-                              'Note': 'Read depth increases by {} percent'.format(round(percent,0))})
+        try:
+            percent = ((poslist[i][1]/poslist[i-1][1])-1)*100
+            depth_checker.append({'Position': poslist[i][0],
+                                  'Note': 'Read depth increases by {} percent'.format(round(percent,0))})
+        except ZeroDivisionError:
+            pass
 
 df2 = pd.DataFrame.from_dict(depth_checker)
 try: 
